@@ -1,0 +1,61 @@
+.bopadding
+{
+	padding: 0px 0px !important;
+}
+.buttoncolor
+{
+	background-color:red !important;
+}
+.buttoncolor2
+{
+	color:red !important;
+}
+.maunen
+{
+	background-color:rgb(185, 185, 193); !important;
+}
+@media (max-width: 991px)
+.sale, .new-pr {
+    left: -50px;
+}
+@media (max-width: 1199px)
+.sale, .new-pr {
+    left: -75px;
+    top: 17px;
+}
+.sale {
+    background-color: #df3b3b;
+    left: 15px;
+    top: 20px;
+    /* width: 50%; */
+    transform: rotate(0deg);
+    margin-left: : 5px;
+    margin-top: : 5px;
+}
+.sale, .discount, .new-pr {
+    /* font-size: 18px; */
+    line-height: 26px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 0 8px;
+    color: #FFF;
+    /* background-color: #fede2d; */
+    position: absolute;
+    z-index: 9;
+   /*  border-radius: 0px 0px 50px 0px; */
+    /* border-bottom: 30px solid red;
+    border-left: 0px solid transparent;
+    border-right: 30px solid transparent; */
+}
+.new-pr {
+    background: #fede2d;
+    left: 15px;
+    top: 20px;
+    /* width: 50%; */
+    transform: rotate(0deg);
+    margin-left: : 5px;
+    margin-top: : 5px;
+}
+.card {
+    height: 100% !important;
+}
